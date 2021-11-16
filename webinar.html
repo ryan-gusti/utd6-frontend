@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Horizontal - Mazer Admin Dashboard</title>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    
+<link rel="stylesheet" href="assets/vendors/iconly/bold.css">
+
+    <link rel="stylesheet" href="assets/vendors/perfect-scrollbar/perfect-scrollbar.css">
+    <link rel="stylesheet" href="assets/vendors/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
+</head>
+
+<body>
+    <div id="app">
+        <div id="main" class="layout-horizontal">
+            <header class="mb-5">
+                <div class="header-top">
+                    <div class="container">
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/images/logo/logo.png" alt="Logo" srcset=""></a>
+                        </div>
+                        <div class="header-top-right">
+
+                            <!-- Burger button responsive -->
+                            <a href="#" class="burger-btn d-block d-xl-none">
+                                <i class="bi bi-justify fs-3"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <nav class="main-navbar">
+                    <div class="container">
+                        <ul>
+                            
+                            
+                            
+                            <li
+                                class="menu-item  ">
+                                <a href="index.html" class='menu-link'>
+                                    <i class="bi bi-house"></i>
+                                    <span>Dashboard</span>
+                                </a>
+                            </li>
+                            
+                            
+                            <li
+                                class="menu-item active has-sub">
+                                <a href="#" class='menu-link'>
+                                    <i class="bi bi-broadcast"></i>
+                                    <span>Webinar</span>
+                                </a>
+                                <div
+                                    class="submenu ">
+                                    <!-- Wrap to submenu-group-wrapper if you want 3-level submenu. Otherwise remove it. -->
+                                    <div class="submenu-group-wrapper">
+                                        
+                                        
+                                        <ul class="submenu-group">
+                                            
+                                            <li
+                                                class="submenu-item">
+                                                <a href="webinar.html"
+                                                    class='submenu-link'><i class="fas fa-chalkboard" style="margin-right: 6px;"></i> Event Webinar</a>
+
+                                                
+                                            </li>
+                                            
+                                        
+                                        
+                                            <li
+                                                class="submenu-item">
+                                                <a href="layout-vertical-1-column.html"
+                                                    class='submenu-link'><i class="fas fa-chalkboard-teacher" style="margin-right: 6px;"></i> Event  Diikuti</a>
+
+                                                
+                                            </li>
+                                        
+                                        
+                                    </div>
+                                </div>
+                            </li>
+                            
+                            <li
+                                class="menu-item  has-sub">
+                                <a href="#" class='menu-link'>
+                                    <i class="bi bi-code-slash"></i>
+                                    <span>Lomba</span>
+                                </a>
+                                <div
+                                    class="submenu ">
+                                    <!-- Wrap to submenu-group-wrapper if you want 3-level submenu. Otherwise remove it. -->
+                                    <div class="submenu-group-wrapper">
+                                        
+                                        
+                                        <ul class="submenu-group">
+                                            
+                                            <li
+                                                class="submenu-item  ">
+                                                <a href="table.html"
+                                                    class='submenu-link'><i class="
+                                                    fas fa-laptop" style="margin-right: 6px;"></i> Event Lomba</a>
+
+                                                
+                                            </li>
+                                            
+                                        
+                                        
+                                            <li
+                                                class="submenu-item  ">
+                                                <a href="table-datatable.html"
+                                                    class='submenu-link'><i class="
+                                                    fas fa-laptop-code" style="margin-right: 6px;"></i> Lomba Diikuti</a>
+
+                                                
+                                            </li>
+                                            
+                                            
+                                        
+                                    </div>
+                                </div>
+                            </li>
+                            
+                            <li
+                            class="menu-item">
+                            <a href="auth-login.html" class='menu-link'>
+                                <i class="bi bi-x-circle"></i>
+                                <span>Keluar</span>
+                            </a>
+                        </li>
+                            
+                        </ul>
+                    </div>
+                </nav>
+
+            </header>
+
+            <div class="content-wrapper container">
+
+                <div class="page-heading">
+                    <h3><i class="fas fa-video"></i> List Event Webinar</h3>
+                </div>
+                <div class="page-content">
+                    <section class="row">
+                        <!-- <div class="col-12 col-lg-6">
+                            <div class="row">
+                                <div class="col-12 col-lg-12 col-md-6">
+                                    <div class="card">
+                                        <div class="card-body px-5 py-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="stats-icon purple">
+                                                    <i class="iconly-boldTime-Circle"></i>
+                                                </div>
+                                                <div class="ms-3 name">
+                                                    <h4 class="font-bold">Tanggal & Jam</h5>
+                                                    <h5 class="text-muted mb-0">15 November 13:59:33</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="card">
+                                <div class="card-body py-4 px-5">
+                                    <div class="d-flex align-items-center">
+                                        <div class="avatar avatar-xl col-md-2" >
+                                            <img src="assets/images/faces/1.jpg" alt="Face 1">
+                                        </div>
+                                        <div class="ms-3 name">
+                                            <h5 class="font-bold">Hi, Ryan Gusti Nugraha</h5>
+                                            <h6 class="text-muted mb-0">085155158668</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <div class="card">
+                                <div class="card-content">
+                                    <div class="card-body">
+                                        <h4 style="margin-bottom: -10px;" class="text-center card-title">Selamat Datang Ryan Gusti Nugraha di UBP Techno Day 6.0 !</h4>
+                                    </div>
+                                    <img class="card-img-bottom img-fluid mt-0" src="assets/images/samples/seminar.jpg"
+                                        alt="Card image cap" style="height: 20rem; object-fit: cover;">
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="col-md-4 col-sm-12">
+                            <div class="card">
+                                <div class="card-content">
+                                    
+                                    <img class="card-img-top img-fluid" src="assets/images/samples/seminar.jpg" alt="Card image cap"
+                                        style="height: 20rem" />
+                                    <div class="card-body">
+                                        <h4 class="card-title text-center">HOW COMPUTER VISION BE ABLE TOO SEE TOO SEE THE WORLD
+                                        </h4>
+                                        <hr>
+                                        <center>
+                                        <span class="badge bg-info rounded-pill mb-4 mt-4" style="font-size: 15px;">Tanggal : 25-11-2021</span>
+                                        <span class="badge bg-success rounded-pill" style="font-size: 15px;">Status : Buka</span>
+                                    </center>
+                                        <hr>
+                                        <!-- <p class="card-text">
+                                            Jelly-o sesame snaps cheesecake topping. Cupcake fruitcake macaroon donut
+                                            pastry gummies tiramisu chocolate bar muffin. Dessert bonbon caramels brownie chocolate
+                                            bar
+                                            chocolate tart dragée.
+                                        </p>
+                                        <p class="card-text">
+                                            Cupcake fruitcake macaroon donut pastry gummies tiramisu chocolate bar muffin.
+                                        </p> -->
+                                        <a href="detail-webinar.html" class="btn btn-primary btn-block"><i class="fas fa-info-circle"></i> Detail / Daftar Webinar</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+            </div>
+
+            <footer>
+                <div class="container">
+                    <div class="footer clearfix mb-0 text-muted">
+                        <div class="float-start">
+                            <p>2021 &copy; Mazer</p>
+                        </div>
+                        <div class="float-end">
+                            <p>Crafted with 💖 by <a
+                                    href="https://ubptechnoday.com">Team UTD 6.0</a></p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="assets/vendors/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    
+<script src="assets/vendors/apexcharts/apexcharts.js"></script>
+<script src="assets/js/pages/dashboard.js"></script>
+<script
+src="https://kit.fontawesome.com/d0d9b5d9c4.js"
+crossorigin="anonymous"
+></script>
+    <script src="assets/js/pages/horizontal-layout.js"></script>
+</body>
+
+</html>

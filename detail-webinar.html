@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Horizontal - Mazer Admin Dashboard</title>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    
+<link rel="stylesheet" href="assets/vendors/iconly/bold.css">
+
+    <link rel="stylesheet" href="assets/vendors/perfect-scrollbar/perfect-scrollbar.css">
+    <link rel="stylesheet" href="assets/vendors/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
+</head>
+
+<body>
+    <div id="app">
+        <div id="main" class="layout-horizontal">
+            <header class="mb-5">
+                <div class="header-top">
+                    <div class="container">
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/images/logo/logo.png" alt="Logo" srcset=""></a>
+                        </div>
+                        <div class="header-top-right">
+
+                            <!-- Burger button responsive -->
+                            <a href="#" class="burger-btn d-block d-xl-none">
+                                <i class="bi bi-justify fs-3"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <nav class="main-navbar">
+                    <div class="container">
+                        <ul>
+                            
+                            
+                            
+                            <li
+                                class="menu-item  ">
+                                <a href="index.html" class='menu-link'>
+                                    <i class="bi bi-house"></i>
+                                    <span>Dashboard</span>
+                                </a>
+                            </li>
+                            
+                            
+                            <li
+                                class="menu-item active has-sub">
+                                <a href="#" class='menu-link'>
+                                    <i class="bi bi-broadcast"></i>
+                                    <span>Webinar</span>
+                                </a>
+                                <div
+                                    class="submenu ">
+                                    <!-- Wrap to submenu-group-wrapper if you want 3-level submenu. Otherwise remove it. -->
+                                    <div class="submenu-group-wrapper">
+                                        
+                                        
+                                        <ul class="submenu-group">
+                                            
+                                            <li
+                                                class="submenu-item">
+                                                <a href="webinar.html"
+                                                    class='submenu-link'><i class="fas fa-chalkboard" style="margin-right: 6px;"></i> Event Webinar</a>
+
+                                                
+                                            </li>
+                                            
+                                        
+                                        
+                                            <li
+                                                class="submenu-item">
+                                                <a href="layout-vertical-1-column.html"
+                                                    class='submenu-link'><i class="fas fa-chalkboard-teacher" style="margin-right: 6px;"></i> Event  Diikuti</a>
+
+                                                
+                                            </li>
+                                        
+                                        
+                                    </div>
+                                </div>
+                            </li>
+                            
+                            <li
+                                class="menu-item  has-sub">
+                                <a href="#" class='menu-link'>
+                                    <i class="bi bi-code-slash"></i>
+                                    <span>Lomba</span>
+                                </a>
+                                <div
+                                    class="submenu ">
+                                    <!-- Wrap to submenu-group-wrapper if you want 3-level submenu. Otherwise remove it. -->
+                                    <div class="submenu-group-wrapper">
+                                        
+                                        
+                                        <ul class="submenu-group">
+                                            
+                                            <li
+                                                class="submenu-item  ">
+                                                <a href="table.html"
+                                                    class='submenu-link'><i class="
+                                                    fas fa-laptop" style="margin-right: 6px;"></i> Event Lomba</a>
+
+                                                
+                                            </li>
+                                            
+                                        
+                                        
+                                            <li
+                                                class="submenu-item  ">
+                                                <a href="table-datatable.html"
+                                                    class='submenu-link'><i class="
+                                                    fas fa-laptop-code" style="margin-right: 6px;"></i> Lomba Diikuti</a>
+
+                                                
+                                            </li>
+                                            
+                                            
+                                        
+                                    </div>
+                                </div>
+                            </li>
+                            
+                            <li
+                            class="menu-item">
+                            <a href="auth-login.html" class='menu-link'>
+                                <i class="bi bi-x-circle"></i>
+                                <span>Keluar</span>
+                            </a>
+                        </li>
+                            
+                        </ul>
+                    </div>
+                </nav>
+
+            </header>
+
+            <div class="content-wrapper container">
+
+                <div class="page-heading">
+                    <h3><i class="fas fa-video"></i> Detail Event Webinar</h3>
+                </div>
+                <div class="page-content">
+                    <section class="row">
+                        <div class="section-body">
+                            <div class="row text-poppins" id="table-striped">
+                                <div class="col-lg-8 col-md-6 col-12">
+                                    <div class="card box-search">
+                                        <div class="card-body">
+                                            <!-- <div class="text-center">
+                                                <img class="img-fluid rounded" src="http://localhost:8080/assets/banner_seminar/1620535814_20d9090aef3dc4e0643e.png" alt="logo" width="400px">
+                                            </div> -->
+                                            <br>
+                                            <h5 class="mt-1 text-center text-capitalize">HOW COMPUTER VISION BE ABLE TOO SEE TOO SEE THE WORLD</h5>
+                                            <p class="text-primary text-center"><small>Tema seminar : <strong>WEBINAR UTD 5.0 SESSION 2</strong></small> </p>
+                                            <p class="card-text border-top">
+                                                </p><p style="-webkit-font-smoothing: antialiased; line-height: 1.82; word-break: break-word;">Dunia sudah memasuki era Revolusi industri 4.0 nih, banyak sekali inovasi-inovasi terbaru dari teknologi yang diterapkan dalam dunia industri, pendidikan dan kehidupan sehari-hari sperti Artificial Intelligence (AI), Internet of Thing (IoT) dan lain-lain.</p><p style="-webkit-font-smoothing: antialiased; line-height: 1.82; word-break: break-word;">Yuk manfaatkan teknologi untuk membangun generasi muda yang kreatif, tingkatkan kualitas dan kemampuan kita karena tanpa kualitas generasi yang unggul teknologi bukanlah apa-apa.</p><p style="-webkit-font-smoothing: antialiased; line-height: 1.82; word-break: break-word;">Himpunan mahasiswa Teknik Informatika UBP Karawang proudly present :</p><p style="-webkit-font-smoothing: antialiased; line-height: 1.82; word-break: break-word;">Webinar UBP Techno Day 5.0 ?</p><p style="-webkit-font-smoothing: antialiased; line-height: 1.82; word-break: break-word;">Sesi 2 : "How The Computer Vision Make Different Of Industries"</p><p style="-webkit-font-smoothing: antialiased; line-height: 1.82; word-break: break-word;">Hari/Tanggal : Sabtu, 9 Januari 2021</p><p style="-webkit-font-smoothing: antialiased; line-height: 1.82; word-break: break-word;">Jam : 12:15 WIB s.d Selesai</p>                            <p></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="card border border-primary">
+                                        <div class="p-3 text-center bg-primary">
+                                            <h6 style="color: white;">Informasi Webinar</h6>
+                                        </div>
+                                        <div class="card-body">
+                                             <div class="row knowledge-panel text-center pt-1">
+                                                <center>
+                                                    <img class="mt-3 mb-3 shadow-box" src="https://www.ubptechnoday.com/assets/img/webinar/webinar2.png" width="250px" alt="">
+                                                </center>
+                                            </div>
+                                            <ul class="list-group my-3">
+                                                <li class="list-group-item">
+                                                    <i class="fas fa-calendar-alt"></i> Tanggal : 2021-04-30                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="fas fa-clock"></i> Waktu : 15:00 WIB
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="fas fa-info-circle"></i> Jenis : SEMINAR                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="fab fa-whatsapp"></i> Contact WA: <a href="https://api.whatsapp.com/send/?phone=6289616038162&amp;text=Saya+butuh+bantuan" target="__new" data-toggle="tooltip" data-original-title="Klik untuk chat!">089616038162 - RYAN GUSTI</a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="fas fa-map-marker-alt"></i> Tempat : Online
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title" style="margin-bottom: -20px;"><i class="fas fa-ticket-alt"></i> Daftar Webinar</h4>
+                            </div>
+                            <div class="card-body">
+                                <hr>
+                                <div class="pricing">
+                                    <div class="row justify-content-center align-items-center">
+                                        <!-- <div class="col-md-4 px-0">
+                                            <div class="card">
+                                                <div class="card-header text-center">
+                                                    <h4 class="card-title">Basic</h4>
+                                                    <p class="text-center">A standart features you can get</p>
+                                                </div>
+                                                <h1 class="price">$100</h1>
+                                                <ul>
+                                                    <li><i class="bi bi-check-circle"></i>Lorem ipsum dolor sit amet</li>
+                                                    <li><i class="bi bi-check-circle"></i>Lorem ipsum dolor sit </li>
+                                                    <li><i class="bi bi-check-circle"></i>Lorem ipsum dolor amet</li>
+                                                    <li><i class="bi bi-check-circle"></i>Lorem ipsum dolor sit amet</li>
+                                                    <li><i class="bi bi-check-circle"></i>Lorem ipsum sit amet</li>
+                                                    <li><i class="bi bi-check-circle"></i>Lorem dolor sit amet</li>
+                                                </ul>
+                                                <div class="card-footer">
+                                                    <button class="btn btn-primary btn-block">Order Now</button>
+                                                </div>
+                                            </div>
+                                        </div> -->
+                                        <div class="col-md-4 px-0">
+                                            <div class="card card-highlighted">
+                                                <div class="card-header text-center">
+                                                    <h4 class="card-title">Daftar Webinar <br>dengan Sertifikat</h4>
+                                                    <p></p>
+                                                </div>
+                                                <h1 class="price text-white">Rp20.000</h1>
+                                                <ul>
+                                                    <li><i class="bi bi-check-circle"></i>Link Zoom</li>
+                                                    <li><i class="bi bi-check-circle"></i>Password Zoom</li>
+                                                    <li><i class="bi bi-check-circle"></i>Materi</li>
+                                                    <li><i class="bi bi-check-circle"></i>E-Sertifikat</li>
+                                                </ul>
+                                                <div class="card-footer">
+                                                    <button class="btn btn-outline-white btn-block">Daftar</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 px-0">
+                                            <div class="card">
+                                                <div class="card-header text-center">
+                                                    <h4 class="card-title">Daftar Webinar<br> tanpa Sertifikat</h4>
+                                                    <!-- <p class="text-center">A higher features you will need</p> -->
+                                                </div>
+                                                <h1 class="price">GRATIS</h1>
+                                                <ul>
+                                                    <li><i class="bi bi-check-circle"></i>Link Live Youtube</li>
+                                                    <li><i class="bi bi-check-circle"></i>Materi</li>
+                                                    <li><i class="bi bi-x-circle"></i>E-Sertifikat</li>
+                                                </ul>
+                                                <div class="card-footer">
+                                                    <button class="btn btn-primary btn-block">Daftar</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </section>
+                </div>
+
+            </div>
+
+            <footer>
+                <div class="container">
+                    <div class="footer clearfix mb-0 text-muted">
+                        <div class="float-start">
+                            <p>2021 &copy; Mazer</p>
+                        </div>
+                        <div class="float-end">
+                            <p>Crafted with 💖 by <a
+                                    href="https://ubptechnoday.com">Team UTD 6.0</a></p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="assets/vendors/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    
+<script src="assets/vendors/apexcharts/apexcharts.js"></script>
+<script src="assets/js/pages/dashboard.js"></script>
+<script
+src="https://kit.fontawesome.com/d0d9b5d9c4.js"
+crossorigin="anonymous"
+></script>
+    <script src="assets/js/pages/horizontal-layout.js"></script>
+</body>
+
+</html>
