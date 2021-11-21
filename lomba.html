@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard | UBPTechno Day 6.0</title>
+    <title>Layout Horizontal - Mazer Admin Dashboard</title>
     
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
@@ -77,7 +77,7 @@
                                         
                                             <li
                                                 class="submenu-item">
-                                                <a href="history-webinar.html"
+                                                <a href="layout-vertical-1-column.html"
                                                     class='submenu-link'><i class="fas fa-chalkboard-teacher" style="margin-right: 6px;"></i> Event  Diikuti</a>
 
                                                 
@@ -104,7 +104,7 @@
                                             
                                             <li
                                                 class="submenu-item  ">
-                                                <a href="lomba.html"
+                                                <a href="table.html"
                                                     class='submenu-link'><i class="
                                                     fas fa-laptop" style="margin-right: 6px;"></i> Event Lomba</a>
 
@@ -115,7 +115,7 @@
                                         
                                             <li
                                                 class="submenu-item  ">
-                                                <a href="history-lomba.html"
+                                                <a href="table-datatable.html"
                                                     class='submenu-link'><i class="
                                                     fas fa-laptop-code" style="margin-right: 6px;"></i> Lomba Diikuti</a>
 
@@ -145,75 +145,65 @@
             <div class="content-wrapper container">
 
                 <div class="page-heading">
-                    <h3>Dashboard</h3>
+                    <h3><i class="fas fa-code"></i> List Event Lomba</h3>
                 </div>
                 <div class="page-content">
                     <section class="row">
-                        <div class="col-12 col-lg-6">
-                            <div class="row">
-                                <div class="col-12 col-lg-12 col-md-12">
-                                    <div class="card">
-                                        <div class="card-body px-5 py-4">
-                                            <!-- <div class="row">
-                                                <div class="col-md-2">
-                                                    <div class="stats-icon purple">
-                                                        <i class="iconly-boldTime-Circle"></i>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-8">
-                                                    <h6 class="text-muted text-center font-semibold">Tanggal & Jam</h6>
-                                                    <h6 class="text-center font-extrabold mb-0">15 November 13:59:33
-                                                    </h6>
-                                                </div>
-                                            </div> -->
-                                            <div class="d-flex align-items-center">
-                                                <div class="stats-icon purple">
-                                                    <i class="iconly-boldTime-Circle"></i>
-                                                </div>
-                                                <div class="ms-3 name">
-                                                    <h4 class="font-bold">Tanggal & Jam</h5>
-                                                    <h5 class="text-muted mb-0">15 November 13:59:33</h6>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-6">
-                            <div class="card">
-                                <div class="card-body py-4 px-5">
-                                    <div class="d-flex align-items-center">
-                                        <div class="avatar avatar-xl col-md-2" >
-                                            <img src="assets/images/faces/1.jpg" alt="Face 1">
-                                        </div>
-                                        <div class="ms-3 name">
-                                            <h5 class="font-bold">Hi, Ryan Gusti Nugraha</h5>
-                                            <h6 class="text-muted mb-0">085155158668</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 col-sm-12">
+                        <div class="col-md-4 col-sm-12">
                             <div class="card">
                                 <div class="card-content">
+                                    <img class="card-img-top img-fluid" src="assets/images/lomba/APPS.png" alt="Card image cap"
+                                        style="height: 20rem" />
                                     <div class="card-body">
-                                        <h4 style="margin-bottom: -10px;" class="text-center card-title">Selamat Datang Ryan Gusti Nugraha di UBP Techno Day 6.0 ! ✨</h4>
+                                        <h4 class="card-title text-center">Lomba Aplikasi (Application Competition)</h4>
+                                        <hr>
+                                        <center>
+                                        <span class="badge bg-info rounded-pill mb-4 mt-4" style="font-size: 15px;">Jumlah Peserta : 3 Orang</span>
+                                        <span class="badge bg-success rounded-pill" style="font-size: 15px;">Status : Buka</span>
+                                    </center>
+                                        <hr>
+                                        <a href="detail-lomba.html" class="btn btn-primary btn-block"><i class="fas fa-info-circle"></i> Detail / Daftar Lomba</a>
                                     </div>
-                                    <img class="card-img-bottom img-fluid mt-0" src="assets/images/samples/seminar.jpg"
-                                        alt="Card image cap" style="height: 20rem; object-fit: cover;">
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12">
+                        <div class="col-md-4 col-sm-12">
                             <div class="card">
-                                <div class="card-header">
-                                    <h4 class="card-title" style="margin-bottom: -20px;"><i class="fas fa-bell"></i> Informasi UTD 6.0</h4>
+                                <div class="card-content">
+                                    
+                                    <img class="card-img-top img-fluid" src="assets/images/lomba/WEB.png" alt="Card image cap"
+                                        style="height: 20rem" />
+                                    <div class="card-body">
+                                        <h4 class="card-title text-center">Lomba Desain Web (Web Design Contest)
+                                        </h4>
+                                        <hr>
+                                        <center>
+                                        <span class="badge bg-info rounded-pill mb-4 mt-4" style="font-size: 15px;">Jumlah Peserta : 3 Orang</span>
+                                        <span class="badge bg-danger rounded-pill" style="font-size: 15px;">Status : Tutup</span>
+                                    </center>
+                                        <hr>
+                                        <a href="detail-lomba-tutup.html" class="btn btn-primary btn-block"><i class="fas fa-info-circle"></i> Detail / Daftar Lomba</a>
+                                    </div>
                                 </div>
-                                <div class="card-body">
-                                    <hr>
-                                    <p>Belum ada informasi yang tersedia untuk saat ini.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="card">
+                                <div class="card-content">
+                                    
+                                    <img class="card-img-top img-fluid" src="assets/images/lomba/GRAPHIC.png" alt="Card image cap"
+                                        style="height: 20rem" />
+                                    <div class="card-body">
+                                        <h4 class="card-title text-center">Lomba Desain Grafis (Graphic Design Contest)
+                                        </h4>
+                                        <hr>
+                                        <center>
+                                        <span class="badge bg-info rounded-pill mb-4 mt-4" style="font-size: 15px;">Jumlah Peserta : 1 Orang</span>
+                                        <span class="badge bg-danger rounded-pill" style="font-size: 15px;">Status : Tutup</span>
+                                    </center>
+                                        <hr>
+                                        <a href="detail-lomba-tutup.html" class="btn btn-primary btn-block"><i class="fas fa-info-circle"></i> Detail / Daftar Lomba</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>

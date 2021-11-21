@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Lomba | UBPTechno Day 6.0</title>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    
+<link rel="stylesheet" href="assets/vendors/iconly/bold.css">
+
+    <link rel="stylesheet" href="assets/vendors/perfect-scrollbar/perfect-scrollbar.css">
+    <link rel="stylesheet" href="assets/vendors/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
+</head>
+
+<body>
+    <div id="app">
+        <div id="main" class="layout-horizontal">
+            <header class="mb-5">
+                <div class="header-top">
+                    <div class="container">
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/images/logo/logo.png" alt="Logo" srcset=""></a>
+                        </div>
+                        <div class="header-top-right">
+
+                            <!-- Burger button responsive -->
+                            <a href="#" class="burger-btn d-block d-xl-none">
+                                <i class="bi bi-justify fs-3"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <nav class="main-navbar">
+                    <div class="container">
+                        <ul>
+                            
+                            
+                            
+                            <li
+                                class="menu-item  ">
+                                <a href="index.html" class='menu-link'>
+                                    <i class="bi bi-house"></i>
+                                    <span>Dashboard</span>
+                                </a>
+                            </li>
+                            
+                            
+                            <li
+                                class="menu-item active has-sub">
+                                <a href="#" class='menu-link'>
+                                    <i class="bi bi-broadcast"></i>
+                                    <span>Webinar</span>
+                                </a>
+                                <div
+                                    class="submenu ">
+                                    <!-- Wrap to submenu-group-wrapper if you want 3-level submenu. Otherwise remove it. -->
+                                    <div class="submenu-group-wrapper">
+                                        
+                                        
+                                        <ul class="submenu-group">
+                                            
+                                            <li
+                                                class="submenu-item">
+                                                <a href="webinar.html"
+                                                    class='submenu-link'><i class="fas fa-chalkboard" style="margin-right: 6px;"></i> Event Webinar</a>
+
+                                                
+                                            </li>
+                                            
+                                        
+                                        
+                                            <li
+                                                class="submenu-item">
+                                                <a href="layout-vertical-1-column.html"
+                                                    class='submenu-link'><i class="fas fa-chalkboard-teacher" style="margin-right: 6px;"></i> Event  Diikuti</a>
+
+                                                
+                                            </li>
+                                        
+                                        
+                                    </div>
+                                </div>
+                            </li>
+                            
+                            <li
+                                class="menu-item  has-sub">
+                                <a href="#" class='menu-link'>
+                                    <i class="bi bi-code-slash"></i>
+                                    <span>Lomba</span>
+                                </a>
+                                <div
+                                    class="submenu ">
+                                    <!-- Wrap to submenu-group-wrapper if you want 3-level submenu. Otherwise remove it. -->
+                                    <div class="submenu-group-wrapper">
+                                        
+                                        
+                                        <ul class="submenu-group">
+                                            
+                                            <li
+                                                class="submenu-item  ">
+                                                <a href="table.html"
+                                                    class='submenu-link'><i class="
+                                                    fas fa-laptop" style="margin-right: 6px;"></i> Event Lomba</a>
+
+                                                
+                                            </li>
+                                            
+                                        
+                                        
+                                            <li
+                                                class="submenu-item  ">
+                                                <a href="table-datatable.html"
+                                                    class='submenu-link'><i class="
+                                                    fas fa-laptop-code" style="margin-right: 6px;"></i> Lomba Diikuti</a>
+
+                                                
+                                            </li>
+                                            
+                                            
+                                        
+                                    </div>
+                                </div>
+                            </li>
+                            
+                            <li
+                            class="menu-item">
+                            <a href="auth-login.html" class='menu-link'>
+                                <i class="bi bi-x-circle"></i>
+                                <span>Keluar</span>
+                            </a>
+                        </li>
+                            
+                        </ul>
+                    </div>
+                </nav>
+
+            </header>
+
+            <div class="content-wrapper container">
+
+                <div class="page-heading">
+                    <h3><i class="fas fa-code"></i> Detail Event Lomba</h3>
+                </div>
+                <div class="page-content">
+                    <section class="row">
+                        <div class="section-body">
+                            <div class="row text-poppins" id="table-striped">
+                                <div class="col-lg-8 col-md-6 col-12">
+                                    <div class="card box-search">
+                                        <div class="card-body">
+                                            <hr>
+                                            <h5 class="mt-1 mb-3 text-center text-capitalize">Lomba Aplikasi (Application Competition)</h5>
+                                            <!-- <p class="text-primary text-center"><small>Tema seminar : <strong>WEBINAR UTD 5.0 SESSION 2</strong></small> </p> -->
+                                            <p class="card-text border-top">
+                                                <!-- </p><p style="-webkit-font-smoothing: antialiased; line-height: 1.82; word-break: break-word;">Dunia sudah memasuki era Revolusi industri 4.0 nih, banyak sekali inovasi-inovasi terbaru dari teknologi yang diterapkan dalam dunia industri, pendidikan dan kehidupan sehari-hari sperti Artificial Intelligence (AI), Internet of Thing (IoT) dan lain-lain.</p><p style="-webkit-font-smoothing: antialiased; line-height: 1.82; word-break: break-word;">Yuk manfaatkan teknologi untuk membangun generasi muda yang kreatif, tingkatkan kualitas dan kemampuan kita karena tanpa kualitas generasi yang unggul teknologi bukanlah apa-apa.</p><p style="-webkit-font-smoothing: antialiased; line-height: 1.82; word-break: break-word;">Himpunan mahasiswa Teknik Informatika UBP Karawang proudly present :</p><p style="-webkit-font-smoothing: antialiased; line-height: 1.82; word-break: break-word;">Webinar UBP Techno Day 5.0 ?</p><p style="-webkit-font-smoothing: antialiased; line-height: 1.82; word-break: break-word;">Sesi 2 : "How The Computer Vision Make Different Of Industries"</p><p style="-webkit-font-smoothing: antialiased; line-height: 1.82; word-break: break-word;">Hari/Tanggal : Sabtu, 9 Januari 2021</p><p style="-webkit-font-smoothing: antialiased; line-height: 1.82; word-break: break-word;">Jam : 12:15 WIB s.d Selesai</p>                            <p></p> -->
+                                                <center>
+                                                    <img class="mt-3 mb-3 shadow-box img-fluid" src="/assets/images/lomba/APPS.png" width="350px" alt="">
+                                                </center>
+                                                <p class="mt-2">Link Guide : <a href="Link Guide : http://localhost:8000/assets/guide/guide.pdf"> http://localhost:8000/assets/guide/guide.pdf</a>
+                                                </p>
+                                                <hr>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="card border border-primary">
+                                        <div class="p-3 text-center bg-primary">
+                                            <h6 style="color: white;">Informasi Lomba</h6>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="row knowledge-panel text-center pt-1">
+                                            </div>
+                                            <ul class="list-group my-3">
+                                                <li class="list-group-item">
+                                                    <i class="fas fa-calendar-alt"></i> Tanggal : 21 November 2021                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="fas fa-info-circle"></i> Jenis : LOMBA                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="fab fa-whatsapp"></i> Kontak Panitia: <a href="https://api.whatsapp.com/send/?phone=6289616038162&amp;text=Saya+butuh+bantuan" target="__new" data-toggle="tooltip" data-original-title="Klik untuk chat!">089616038162</a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <i class="fas fa-map-marker-alt"></i> Tempat : Online
+                                                </li>
+                                            </ul>
+                                            <div class="text-center">
+
+
+                        
+                                                <button class="btn btn-primary mb-2" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                                    <i class="fas fa-link"></i> Kirim Link Google Drive
+                                                  </button>
+                        
+                        
+                        
+                                                <div class="collapse" id="collapseExample">
+                                                    <div class="card card-body">
+                                                        <div class="form-group">
+                                                         <form action="/user/lomba/diikuti/link/la" method="post">
+                                                                <label for="link" class="mb-2">Link Google Drive</label>
+                                                                <input type="text" required="" name="link" class="form-control" id="link" placeholder="Link Google Drive">                                    
+                                                            </form></div>
+                                                            <button class="btn btn-success" type="submit"><i class="fas fa-paper-plane"></i> Kirim Karya</button>                                    
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col-lg-8 col-md-6 col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title" style="margin-bottom: -20px;"><i class="fas fa-users"></i> Daftar Peserta</h4>
+                            </div>
+                            <div class="card-body">
+                                <hr>
+                                <div class="col-md-12 col-12">
+                                    <div class="card">
+                                        <div class="card-content">
+                                            <div class="card-body">
+                                                <form class="form form-vertical">
+                                                    <div class="form-body">
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <div class="form-group has-icon-left">
+                                                                    <label for="first-name-icon" class="mb-2">Nama Team</label>
+                                                                    <div class="position-relative">
+                                                                        <input type="text" class="form-control mb-4"
+                                                                            placeholder="Input Nama Team" id="first-name-icon">
+                                                                        <div class="form-control-icon">
+                                                                            <i class="bi bi-people-fill"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                            <div class="col-12">
+                                                                <div class="form-group has-icon-left">
+                                                                    <h6>Peserta 1</h6>
+                                                                    <hr>
+                                                                    <div class="form-group has-icon-left">
+                                                                        <label for="first-name-icon">Nama Peserta</label>
+                                                                        <div class="position-relative">
+                                                                            <input type="text" class="form-control"
+                                                                                placeholder="Input Nama Peserta" id="first-name-icon">
+                                                                            <div class="form-control-icon">
+                                                                                <i class="bi bi-person"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <label for="email-id-icon">Email Peserta</label>
+                                                                    <div class="position-relative">
+                                                                        <input type="text" class="form-control" placeholder="Input Email Peserta"
+                                                                            id="email-id-icon">
+                                                                        <div class="form-control-icon">
+                                                                            <i class="bi bi-envelope"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div class="form-group has-icon-left">
+                                                                    <label for="mobile-id-icon">Nomor HP Peserta</label>
+                                                                    <div class="position-relative">
+                                                                        <input type="text" class="form-control" placeholder="Input Nomor HP Peserta"
+                                                                            id="mobile-id-icon">
+                                                                        <div class="form-control-icon">
+                                                                            <i class="bi bi-phone"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div class="form-group has-icon-left">
+                                                                    <label for="password-id-icon">Tanggal Lahir Peserta</label>
+                                                                    <div class="position-relative">
+                                                                        <input type="date" class="form-control mb-4" placeholder="Password"
+                                                                            id="password-id-icon">
+                                                                        <div class="form-control-icon">
+                                                                            <i class="bi bi-calendar"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                            <div class="col-12">
+                                                                <div class="form-group has-icon-left">
+                                                                    <h6>Peserta 2</h6>
+                                                                    <hr>
+                                                                    <div class="form-group has-icon-left">
+                                                                        <label for="first-name-icon">Nama Peserta</label>
+                                                                        <div class="position-relative">
+                                                                            <input type="text" class="form-control"
+                                                                                placeholder="Input Nama Peserta" id="first-name-icon">
+                                                                            <div class="form-control-icon">
+                                                                                <i class="bi bi-person"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <label for="email-id-icon">Email Peserta</label>
+                                                                    <div class="position-relative">
+                                                                        <input type="text" class="form-control" placeholder="Input Email Peserta"
+                                                                            id="email-id-icon">
+                                                                        <div class="form-control-icon">
+                                                                            <i class="bi bi-envelope"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div class="form-group has-icon-left">
+                                                                    <label for="mobile-id-icon">Nomor HP Peserta</label>
+                                                                    <div class="position-relative">
+                                                                        <input type="text" class="form-control" placeholder="Input Nomor HP Peserta"
+                                                                            id="mobile-id-icon">
+                                                                        <div class="form-control-icon">
+                                                                            <i class="bi bi-phone"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div class="form-group has-icon-left">
+                                                                    <label for="password-id-icon">Tanggal Lahir Peserta</label>
+                                                                    <div class="position-relative">
+                                                                        <input type="date" class="form-control mb-4" placeholder="Password"
+                                                                            id="password-id-icon">
+                                                                        <div class="form-control-icon">
+                                                                            <i class="bi bi-calendar"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                            <div class="col-12">
+                                                                <div class="form-group has-icon-left">
+                                                                    <h6>Peserta 3</h6>
+                                                                    <hr>
+                                                                    <div class="form-group has-icon-left">
+                                                                        <label for="first-name-icon">Nama Peserta</label>
+                                                                        <div class="position-relative">
+                                                                            <input type="text" class="form-control"
+                                                                                placeholder="Input Nama Peserta" id="first-name-icon">
+                                                                            <div class="form-control-icon">
+                                                                                <i class="bi bi-person"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <label for="email-id-icon">Email Peserta</label>
+                                                                    <div class="position-relative">
+                                                                        <input type="text" class="form-control" placeholder="Input Email Peserta"
+                                                                            id="email-id-icon">
+                                                                        <div class="form-control-icon">
+                                                                            <i class="bi bi-envelope"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div class="form-group has-icon-left">
+                                                                    <label for="mobile-id-icon">Nomor HP Peserta</label>
+                                                                    <div class="position-relative">
+                                                                        <input type="text" class="form-control" placeholder="Input Nomor HP Peserta"
+                                                                            id="mobile-id-icon">
+                                                                        <div class="form-control-icon">
+                                                                            <i class="bi bi-phone"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div class="form-group has-icon-left">
+                                                                    <label for="password-id-icon">Tanggal Lahir Peserta</label>
+                                                                    <div class="position-relative">
+                                                                        <input type="date" class="form-control mb-4" placeholder="Password"
+                                                                            id="password-id-icon">
+                                                                        <div class="form-control-icon">
+                                                                            <i class="bi bi-calendar"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </section>
+                </div>
+
+            </div>
+
+            <footer>
+                <div class="container">
+                    <div class="footer clearfix mb-0 text-muted">
+                        <div class="float-start">
+                            <p>2021 &copy; Mazer</p>
+                        </div>
+                        <div class="float-end">
+                            <p>Crafted with 💖 by <a
+                                    href="https://ubptechnoday.com">Team UTD 6.0</a></p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</div>
+<script src="assets/vendors/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>    
+<script src="assets/js/pages/dashboard.js"></script>
+<script src="https://kit.fontawesome.com/d0d9b5d9c4.js" crossorigin="anonymous"></script>
+<script src="assets/js/pages/horizontal-layout.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
