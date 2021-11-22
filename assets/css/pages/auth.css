@@ -3,33 +3,56 @@ body {
 }
 #auth {
   height: 100vh;
-  overflow-x: hidden;
+  overflow: hidden;
 }
+
 #auth #auth-right {
   background: url(../../images/bg/4853433.jpg),
     linear-gradient(90deg, #2d499d, #3f5491);
   height: 100%;
+  vertical-align: middle;
+  padding-top: 37%;
 }
+
 #auth #auth-left {
-  padding: 5rem 8rem;
+  padding: 18rem;
+  justify-content: center;
+  align-items: center;
 }
-#auth #auth-left .auth-title {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+
+.auth-register {
+  padding-top: 13rem !important;
 }
-#auth #auth-left .auth-subtitle {
-  color: #a8aebb;
-  font-size: 1.7rem;
-  line-height: 2.5rem;
-}
-#auth #auth-left .auth-logo {
-  margin-bottom: 7rem;
-}
-#auth #auth-left .auth-logo img {
-  height: 2rem;
-}
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 700px) {
+  #auth {
+    height: auto;
+    display:flex; flex-direction: column;
+    margin: 0;
+    overflow-y: visible;
+  }
+
+  #auth .row {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+
+  #auth #auth-right img {
+      width: 65px !important;
+  }
+
+  #auth #auth-right {
+    margin-top: 0;
+    padding: 5%;
+  }
+
   #auth #auth-left {
-    padding: 5rem;
+    padding: 4rem;
+    padding-bottom: 0rem !important;
+  }
+
+  .auth-register {
+    padding: 4rem !important;
+    padding-bottom: 0rem !important;
   }
 }
